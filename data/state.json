@@ -46,34 +46,16 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-20",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "356503",
-        "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
-        "url": "https://linkareer.com/activity/356503",
-        "host": "대구광역시 탄소중립지원센터",
-        "apply_end": "2026-11-20",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:358198": {
       "title": "현대자동차그룹 차량용 앱 개발 공모전",
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-15",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "358198",
-        "title": "현대자동차그룹 차량용 앱 개발 공모전",
-        "url": "https://linkareer.com/activity/358198",
-        "host": "공모전 운영사무국",
-        "apply_end": "2026-11-15",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:358629": {
       "title": "텐퍼센트커피 커스텀 레시피 콘테스트",
@@ -789,17 +771,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-30",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "359841",
-        "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
-        "url": "https://linkareer.com/activity/359841",
-        "host": "한국프로세스혁신협회",
-        "apply_end": "2026-11-30",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:359860": {
       "title": "제7회 한국섬유패션디자인 콘테스트",
@@ -1230,17 +1203,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-15",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "360309",
-        "title": "2026 대구 대학(원) AI 드래프톤",
-        "url": "https://linkareer.com/activity/360309",
-        "host": "대구테크노파크",
-        "apply_end": "2026-11-15",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:360339": {
       "title": "[F&S] ₩50,000 LOOK",
@@ -1281,17 +1245,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-11",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "360379",
-        "title": "[총상금 1,500만 원] 2026 AI 활용 전국 대학생 창업 해커톤 대회 참가자 모집",
-        "url": "https://linkareer.com/activity/360379",
-        "host": "터그",
-        "apply_end": "2026-11-11",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:360396": {
       "title": "[문화정원] 2026 (다시, 다리다) 유휴공간 활성화 아이디어 공모전",
@@ -1417,17 +1372,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-04",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "360443",
-        "title": "2026 서울시립대학교 AI+X 실전 문제해결 프로젝트 2기",
-        "url": "https://linkareer.com/activity/360443",
-        "host": "데이터스케쳐스",
-        "apply_end": "2026-11-04",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:360446": {
       "title": "[국민체육진흥공단] 체육시설 안전·경영 우수사례 공모",
@@ -1519,17 +1465,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-22",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "360524",
-        "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
-        "url": "https://linkareer.com/activity/360524",
-        "host": "(주)하나은행",
-        "apply_end": "2026-11-22",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:360526": {
       "title": "양천구 건축공간디자인상 공모",
@@ -2114,17 +2051,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-20",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "361052",
-        "title": "2026 성평등 AI 벤치마크 챌린지 참가팀 모집",
-        "url": "https://linkareer.com/activity/361052",
-        "host": "성평등가족부",
-        "apply_end": "2026-11-20",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:361056": {
       "title": "강남구중독관리통합지원센터 캐릭터 공모전",
@@ -2216,17 +2144,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-06",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "361063",
-        "title": "2026년 제2회 Tech-GPT 서비스 경진대회",
-        "url": "https://linkareer.com/activity/361063",
-        "host": "한국전자정보통신산업진흥회",
-        "apply_end": "2026-11-06",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:361065": {
       "title": "제7회 가산 환경사랑 어린이 미술대회",
@@ -2284,17 +2203,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-17",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "361137",
-        "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
-        "url": "https://linkareer.com/activity/361137",
-        "host": "주식회사 어치브모먼트",
-        "apply_end": "2026-11-17",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 3
     },
     "linkareer:361174": {
       "title": "제47회 《문명 그 화려한 역설》 69개의 표지비밀 풀기 프로젝트 공모 (1억고료 문학상 수상작)",
@@ -2923,40 +2833,18 @@
     "wevity:111965": {
       "title": "2026 AI 활용 전국 대학생 창업 해커톤 참가자 모집",
       "first_seen": "2026-11-02",
-      "apply_end": "2026-11-12",
+      "apply_end": "2026-11-11",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "wevity",
-        "id": "111965",
-        "title": "2026 AI 활용 전국 대학생 창업 해커톤 참가자 모집",
-        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111965",
-        "host": "교육부, 한국교육학술정보원(KERIS)",
-        "apply_end": "2026-11-12",
-        "categories": [
-          "기획/아이디어"
-        ]
-      }
+      "status": "sent",
+      "issue": 3
     },
     "wevity:111981": {
       "title": "2026 대구 대학(원) AI 드래프톤 참가팀 모집",
       "first_seen": "2026-11-02",
-      "apply_end": "2026-11-16",
+      "apply_end": "2026-11-15",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "wevity",
-        "id": "111981",
-        "title": "2026 대구 대학(원) AI 드래프톤 참가팀 모집",
-        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111981",
-        "host": "대구시",
-        "apply_end": "2026-11-16",
-        "categories": [
-          "기타"
-        ]
-      }
+      "status": "sent",
+      "issue": 3
     },
     "wevity:111984": {
       "title": "송파청년센터 청년 소모임 활동지원 송파로 참여 커뮤니티 모집",
@@ -3018,8 +2906,8 @@
     "wevity:111998": {
       "title": "2035 AI·디지털 전환 시민숙의 패널 모집",
       "first_seen": "2026-11-02",
-      "apply_end": "2026-11-05",
-      "it": true,
+      "apply_end": "2026-11-04",
+      "it": false,
       "status": "pending",
       "issue": null,
       "listing": {
@@ -3058,19 +2946,8 @@
       "first_seen": "2026-11-02",
       "apply_end": "2026-11-12",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "wevity",
-        "id": "112015",
-        "title": "[코리아 인디게임 쇼케이스] 2026 인디게임 서포터즈 모집",
-        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112015",
-        "host": "한국콘텐츠진흥원",
-        "apply_end": "2026-11-12",
-        "categories": [
-          "게임/소프트웨어"
-        ]
-      }
+      "status": "skipped",
+      "issue": null
     },
     "wevity:112017": {
       "title": "2026 유성 관광 크리에이터 모집",
