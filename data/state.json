@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-27",
+  "last_run": "2026-11-02",
   "items": {
     "linkareer:342034": {
       "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
@@ -40,6 +40,40 @@
       "it": false,
       "status": "sent",
       "issue": 1
+    },
+    "linkareer:356503": {
+      "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "356503",
+        "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
+        "url": "https://linkareer.com/activity/356503",
+        "host": "대구광역시 탄소중립지원센터",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:358198": {
+      "title": "현대자동차그룹 차량용 앱 개발 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "358198",
+        "title": "현대자동차그룹 차량용 앱 개발 공모전",
+        "url": "https://linkareer.com/activity/358198",
+        "host": "공모전 운영사무국",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
     },
     "linkareer:358629": {
       "title": "텐퍼센트커피 커스텀 레시피 콘테스트",
@@ -750,6 +784,23 @@
         "categories": []
       }
     },
+    "linkareer:359841": {
+      "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "359841",
+        "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
+        "url": "https://linkareer.com/activity/359841",
+        "host": "한국프로세스혁신협회",
+        "apply_end": "2026-11-30",
+        "categories": []
+      }
+    },
     "linkareer:359860": {
       "title": "제7회 한국섬유패션디자인 콘테스트",
       "first_seen": "2026-10-27",
@@ -767,6 +818,57 @@
         "categories": []
       }
     },
+    "linkareer:359892": {
+      "title": "2027 KSPO 스포츠가치센터 슬로건 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "359892",
+        "title": "2027 KSPO 스포츠가치센터 슬로건 공모전",
+        "url": "https://linkareer.com/activity/359892",
+        "host": "KSPO스포츠가치센터",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:359912": {
+      "title": "이스타항공 기내식 레시피 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "359912",
+        "title": "이스타항공 기내식 레시피 공모전",
+        "url": "https://linkareer.com/activity/359912",
+        "host": "이스타항공",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:359946": {
+      "title": "제6회 인천공항 여행 공모전 「내가 만드는 한국여행」",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-29",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "359946",
+        "title": "제6회 인천공항 여행 공모전 「내가 만드는 한국여행」",
+        "url": "https://linkareer.com/activity/359946",
+        "host": "인천국제공항공사",
+        "apply_end": "2026-11-29",
+        "categories": []
+      }
+    },
     "linkareer:359961": {
       "title": "모두의 AI 정책브랜드 대국민 공모전",
       "first_seen": "2026-10-27",
@@ -774,6 +876,23 @@
       "it": false,
       "status": "sent",
       "issue": 1
+    },
+    "linkareer:359962": {
+      "title": "2026 의왕시 청년 e-Room 창업 아이디어 공모전 참가자 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "359962",
+        "title": "2026 의왕시 청년 e-Room 창업 아이디어 공모전 참가자 모집",
+        "url": "https://linkareer.com/activity/359962",
+        "host": "(주)이노어스",
+        "apply_end": "2026-11-11",
+        "categories": []
+      }
     },
     "linkareer:359967": {
       "title": "2026년도 HF 대국민 혁신 아이디어 공모전",
@@ -797,6 +916,1400 @@
         "url": "https://linkareer.com/activity/359976",
         "host": "국민체육진흥공단 스포츠가치센터",
         "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:359977": {
+      "title": "2026 맞춤형 급여 안내(복지멤버십) 수기 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "359977",
+        "title": "2026 맞춤형 급여 안내(복지멤버십) 수기 공모전",
+        "url": "https://linkareer.com/activity/359977",
+        "host": "한국사회보장정보원",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:360003": {
+      "title": "[바르면 살빠지는 케이스키니] 사용챌린지 영상 공모전 (턱살 케어 챌린지)",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-03",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360003",
+        "title": "[바르면 살빠지는 케이스키니] 사용챌린지 영상 공모전 (턱살 케어 챌린지)",
+        "url": "https://linkareer.com/activity/360003",
+        "host": "엘팸",
+        "apply_end": "2026-11-03",
+        "categories": []
+      }
+    },
+    "linkareer:360017": {
+      "title": "[부마민주항쟁기념재단] 2026 부마민주항쟁 민간기록물 수집 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360017",
+        "title": "[부마민주항쟁기념재단] 2026 부마민주항쟁 민간기록물 수집 공모전",
+        "url": "https://linkareer.com/activity/360017",
+        "host": "부마민주항쟁기념재단",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:360022": {
+      "title": "[보령시] 보령 웰니스 정책 제안 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360022",
+        "title": "[보령시] 보령 웰니스 정책 제안 공모전",
+        "url": "https://linkareer.com/activity/360022",
+        "host": "보령시",
+        "apply_end": "2026-11-11",
+        "categories": []
+      }
+    },
+    "linkareer:360063": {
+      "title": "2026 공학페스티벌 E²SODE 쇼츠공모전 안내",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-08",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360063",
+        "title": "2026 공학페스티벌 E²SODE 쇼츠공모전 안내",
+        "url": "https://linkareer.com/activity/360063",
+        "host": "웰비아이",
+        "apply_end": "2026-11-08",
+        "categories": []
+      }
+    },
+    "linkareer:360068": {
+      "title": "2026 모두의노동 손그림 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360068",
+        "title": "2026 모두의노동 손그림 공모전",
+        "url": "https://linkareer.com/activity/360068",
+        "host": "제주특별자치도",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:360074": {
+      "title": "[국립한밭대학교] 2026 포토에세이 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360074",
+        "title": "[국립한밭대학교] 2026 포토에세이 공모전",
+        "url": "https://linkareer.com/activity/360074",
+        "host": "국립한밭대학교",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:360080": {
+      "title": "LOTTE AX CHALLENGE 2026",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-04",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360080",
+        "title": "LOTTE AX CHALLENGE 2026",
+        "url": "https://linkareer.com/activity/360080",
+        "host": "롯데지주",
+        "apply_end": "2026-11-04",
+        "categories": []
+      }
+    },
+    "linkareer:360083": {
+      "title": "디지털 디톡스 챌린지",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360083",
+        "title": "디지털 디톡스 챌린지",
+        "url": "https://linkareer.com/activity/360083",
+        "host": "세종사이버대학교 아동가족학부",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:360141": {
+      "title": "[2026 제주감귤박람회] 감귤디저트대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-09",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360141",
+        "title": "[2026 제주감귤박람회] 감귤디저트대회",
+        "url": "https://linkareer.com/activity/360141",
+        "host": "(주)올인피엠지",
+        "apply_end": "2026-11-09",
+        "categories": []
+      }
+    },
+    "linkareer:360215": {
+      "title": "제4회 산업기술 R&D 어린이 그림그리기 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360215",
+        "title": "제4회 산업기술 R&D 어린이 그림그리기 공모전",
+        "url": "https://linkareer.com/activity/360215",
+        "host": "(주)경동기획",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:360224": {
+      "title": "2026년 지역문제해결 아이디어 발굴 부여 솔버톤 대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360224",
+        "title": "2026년 지역문제해결 아이디어 발굴 부여 솔버톤 대회",
+        "url": "https://linkareer.com/activity/360224",
+        "host": "부여군, 부여군지역공동체활성화재단",
+        "apply_end": "2026-11-11",
+        "categories": []
+      }
+    },
+    "linkareer:360251": {
+      "title": "2026 해양 창업아이디어 공모전 Spark-up 1876",
+      "first_seen": "2026-11-02",
+      "apply_end": "2027-11-16",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360251",
+        "title": "2026 해양 창업아이디어 공모전 Spark-up 1876",
+        "url": "https://linkareer.com/activity/360251",
+        "host": "부산항만공사",
+        "apply_end": "2027-11-16",
+        "categories": []
+      }
+    },
+    "linkareer:360253": {
+      "title": "VIVID RE: PLAY - 총상금 2천만원 AI 영상 창작 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-13",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360253",
+        "title": "VIVID RE: PLAY - 총상금 2천만원 AI 영상 창작 공모전",
+        "url": "https://linkareer.com/activity/360253",
+        "host": "ARKAIN",
+        "apply_end": "2026-12-13",
+        "categories": []
+      }
+    },
+    "linkareer:360283": {
+      "title": "2026 소상공인 분야 연구논문 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360283",
+        "title": "2026 소상공인 분야 연구논문 공모전",
+        "url": "https://linkareer.com/activity/360283",
+        "host": "소상공인시장진흥공단 / 한국정책학회",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:360285": {
+      "title": "2026년 KDN Eco-Life 대국민 환경 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-10",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360285",
+        "title": "2026년 KDN Eco-Life 대국민 환경 공모전",
+        "url": "https://linkareer.com/activity/360285",
+        "host": "한전KDN",
+        "apply_end": "2026-11-10",
+        "categories": []
+      }
+    },
+    "linkareer:360286": {
+      "title": "춘천MBC AI영상 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-10",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360286",
+        "title": "춘천MBC AI영상 공모전",
+        "url": "https://linkareer.com/activity/360286",
+        "host": "춘천MBC",
+        "apply_end": "2026-12-10",
+        "categories": []
+      }
+    },
+    "linkareer:360298": {
+      "title": "2026 「다시, 다리다」 유휴공간 활성화 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-09",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360298",
+        "title": "2026 「다시, 다리다」 유휴공간 활성화 아이디어 공모전",
+        "url": "https://linkareer.com/activity/360298",
+        "host": "문화정원",
+        "apply_end": "2026-11-09",
+        "categories": []
+      }
+    },
+    "linkareer:360309": {
+      "title": "2026 대구 대학(원) AI 드래프톤",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360309",
+        "title": "2026 대구 대학(원) AI 드래프톤",
+        "url": "https://linkareer.com/activity/360309",
+        "host": "대구테크노파크",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:360339": {
+      "title": "[F&S] ₩50,000 LOOK",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360339",
+        "title": "[F&S] ₩50,000 LOOK",
+        "url": "https://linkareer.com/activity/360339",
+        "host": "F&S",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:360377": {
+      "title": "서울미래인재재단 대표 캐릭터 공모전 <서울의 미래, 새로운 얼굴>",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360377",
+        "title": "서울미래인재재단 대표 캐릭터 공모전 <서울의 미래, 새로운 얼굴>",
+        "url": "https://linkareer.com/activity/360377",
+        "host": "청년협동조합 몽땅",
+        "apply_end": "2026-11-30",
+        "categories": []
+      }
+    },
+    "linkareer:360379": {
+      "title": "[총상금 1,500만 원] 2026 AI 활용 전국 대학생 창업 해커톤 대회 참가자 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360379",
+        "title": "[총상금 1,500만 원] 2026 AI 활용 전국 대학생 창업 해커톤 대회 참가자 모집",
+        "url": "https://linkareer.com/activity/360379",
+        "host": "터그",
+        "apply_end": "2026-11-11",
+        "categories": []
+      }
+    },
+    "linkareer:360396": {
+      "title": "[문화정원] 2026 (다시, 다리다) 유휴공간 활성화 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-09",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360396",
+        "title": "[문화정원] 2026 (다시, 다리다) 유휴공간 활성화 아이디어 공모전",
+        "url": "https://linkareer.com/activity/360396",
+        "host": "문화정원",
+        "apply_end": "2026-11-09",
+        "categories": []
+      }
+    },
+    "linkareer:360403": {
+      "title": "제39회 무등일보 신춘문예",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-07",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360403",
+        "title": "제39회 무등일보 신춘문예",
+        "url": "https://linkareer.com/activity/360403",
+        "host": "에스알비무등일보",
+        "apply_end": "2026-12-07",
+        "categories": []
+      }
+    },
+    "linkareer:360404": {
+      "title": "2026 제18회 전국청소년 모형항공기대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-14",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360404",
+        "title": "2026 제18회 전국청소년 모형항공기대회",
+        "url": "https://linkareer.com/activity/360404",
+        "host": "한국폴리텍대학 항공 캠퍼스",
+        "apply_end": "2026-11-14",
+        "categories": []
+      }
+    },
+    "linkareer:360416": {
+      "title": "내가 다녀온 핫플 영상 공모전 (1차)",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360416",
+        "title": "내가 다녀온 핫플 영상 공모전 (1차)",
+        "url": "https://linkareer.com/activity/360416",
+        "host": "주식회사 엠코스",
+        "apply_end": "2026-11-30",
+        "categories": []
+      }
+    },
+    "linkareer:360431": {
+      "title": "[hy(한국야쿠르트)] 제1회 메치니코프 신제품 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-17",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360431",
+        "title": "[hy(한국야쿠르트)] 제1회 메치니코프 신제품 공모전",
+        "url": "https://linkareer.com/activity/360431",
+        "host": "에치와이",
+        "apply_end": "2026-11-17",
+        "categories": []
+      }
+    },
+    "linkareer:360436": {
+      "title": "[외교부] 2026 한·중·일 3국 초·중·고 포스터 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-29",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360436",
+        "title": "[외교부] 2026 한·중·일 3국 초·중·고 포스터 공모전",
+        "url": "https://linkareer.com/activity/360436",
+        "host": "외교부",
+        "apply_end": "2026-11-29",
+        "categories": []
+      }
+    },
+    "linkareer:360437": {
+      "title": "한국해외인프라도시개발지원공사 KIND 뉴 슬로건 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360437",
+        "title": "한국해외인프라도시개발지원공사 KIND 뉴 슬로건 공모전",
+        "url": "https://linkareer.com/activity/360437",
+        "host": "(주)휴비즈",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:360443": {
+      "title": "2026 서울시립대학교 AI+X 실전 문제해결 프로젝트 2기",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-04",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360443",
+        "title": "2026 서울시립대학교 AI+X 실전 문제해결 프로젝트 2기",
+        "url": "https://linkareer.com/activity/360443",
+        "host": "데이터스케쳐스",
+        "apply_end": "2026-11-04",
+        "categories": []
+      }
+    },
+    "linkareer:360446": {
+      "title": "[국민체육진흥공단] 체육시설 안전·경영 우수사례 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360446",
+        "title": "[국민체육진흥공단] 체육시설 안전·경영 우수사례 공모",
+        "url": "https://linkareer.com/activity/360446",
+        "host": "국민체육진흥공단",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:360489": {
+      "title": "2026 자립준비청년 디벨롭 숏폼콘테스트",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360489",
+        "title": "2026 자립준비청년 디벨롭 숏폼콘테스트",
+        "url": "https://linkareer.com/activity/360489",
+        "host": "공공로운",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:360519": {
+      "title": "제7회 KMA 시니어모델선발대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-14",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360519",
+        "title": "제7회 KMA 시니어모델선발대회",
+        "url": "https://linkareer.com/activity/360519",
+        "host": "한국모델협회",
+        "apply_end": "2026-11-14",
+        "categories": []
+      }
+    },
+    "linkareer:360521": {
+      "title": "The 6th NN Arts 전국 입시생 성악 콩쿠르",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360521",
+        "title": "The 6th NN Arts 전국 입시생 성악 콩쿠르",
+        "url": "https://linkareer.com/activity/360521",
+        "host": "엔엔아츠(NN Arts)",
+        "apply_end": "2026-12-06",
+        "categories": []
+      }
+    },
+    "linkareer:360522": {
+      "title": "2026 '우리가게 보탬이야기' 소상공인 우수사례 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360522",
+        "title": "2026 '우리가게 보탬이야기' 소상공인 우수사례 공모전",
+        "url": "https://linkareer.com/activity/360522",
+        "host": "서울신용보증재단",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:360524": {
+      "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-22",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360524",
+        "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
+        "url": "https://linkareer.com/activity/360524",
+        "host": "(주)하나은행",
+        "apply_end": "2026-11-22",
+        "categories": []
+      }
+    },
+    "linkareer:360526": {
+      "title": "양천구 건축공간디자인상 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-19",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360526",
+        "title": "양천구 건축공간디자인상 공모",
+        "url": "https://linkareer.com/activity/360526",
+        "host": "양천구",
+        "apply_end": "2026-11-19",
+        "categories": []
+      }
+    },
+    "linkareer:360528": {
+      "title": "국가아동권리보장원 아동학대 대응인력 교육 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-02",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360528",
+        "title": "국가아동권리보장원 아동학대 대응인력 교육 아이디어 공모전",
+        "url": "https://linkareer.com/activity/360528",
+        "host": "국가아동권리보장원",
+        "apply_end": "2026-11-02",
+        "categories": []
+      }
+    },
+    "linkareer:360529": {
+      "title": "충남 문화CF스타상(청년예술부문) 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-19",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360529",
+        "title": "충남 문화CF스타상(청년예술부문) 공모",
+        "url": "https://linkareer.com/activity/360529",
+        "host": "충남문화관광재단",
+        "apply_end": "2026-11-19",
+        "categories": []
+      }
+    },
+    "linkareer:360532": {
+      "title": "제17회 천강문학상 작품 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2027-01-31",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360532",
+        "title": "제17회 천강문학상 작품 공모",
+        "url": "https://linkareer.com/activity/360532",
+        "host": "의령군",
+        "apply_end": "2027-01-31",
+        "categories": []
+      }
+    },
+    "linkareer:360533": {
+      "title": "KISA에게 바란다, 국민이 함께하는 '모두의 KISA'",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-10",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360533",
+        "title": "KISA에게 바란다, 국민이 함께하는 '모두의 KISA'",
+        "url": "https://linkareer.com/activity/360533",
+        "host": "한국인터넷진흥원",
+        "apply_end": "2026-11-10",
+        "categories": []
+      }
+    },
+    "linkareer:360534": {
+      "title": "제10회 서울무용영화제 출품 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2027-01-31",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360534",
+        "title": "제10회 서울무용영화제 출품 공모",
+        "url": "https://linkareer.com/activity/360534",
+        "host": "영상예술포럼",
+        "apply_end": "2027-01-31",
+        "categories": []
+      }
+    },
+    "linkareer:360535": {
+      "title": "『우리글』 2026년 하반기호 우리글문학상 및 신인문학상 작품 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-25",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360535",
+        "title": "『우리글』 2026년 하반기호 우리글문학상 및 신인문학상 작품 공모",
+        "url": "https://linkareer.com/activity/360535",
+        "host": "우리글작가회",
+        "apply_end": "2026-11-25",
+        "categories": []
+      }
+    },
+    "linkareer:360570": {
+      "title": "제6회 숏츠멘터리공모전 [AI시대, 기후기록]",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-28",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360570",
+        "title": "제6회 숏츠멘터리공모전 [AI시대, 기후기록]",
+        "url": "https://linkareer.com/activity/360570",
+        "host": "사단법인 지속가능월드네트워크",
+        "apply_end": "2026-11-28",
+        "categories": []
+      }
+    },
+    "linkareer:360600": {
+      "title": "2026 하나문화재단 예술 공모전 《미래의 감정들》",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-22",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360600",
+        "title": "2026 하나문화재단 예술 공모전 《미래의 감정들》",
+        "url": "https://linkareer.com/activity/360600",
+        "host": "하나문화재단",
+        "apply_end": "2026-11-22",
+        "categories": []
+      }
+    },
+    "linkareer:360638": {
+      "title": "「초량천~산복도로」 스토리텔링 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360638",
+        "title": "「초량천~산복도로」 스토리텔링 공모전",
+        "url": "https://linkareer.com/activity/360638",
+        "host": "부산광역시",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:360641": {
+      "title": "모두의 드라이브 핫플 영상 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360641",
+        "title": "모두의 드라이브 핫플 영상 공모전",
+        "url": "https://linkareer.com/activity/360641",
+        "host": "주식회사 엠코스",
+        "apply_end": "2026-11-30",
+        "categories": []
+      }
+    },
+    "linkareer:360667": {
+      "title": "한국보훈복지의료공단 소셜미디어 채널 만족도 설문조사 이벤트",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-10",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360667",
+        "title": "한국보훈복지의료공단 소셜미디어 채널 만족도 설문조사 이벤트",
+        "url": "https://linkareer.com/activity/360667",
+        "host": "한국보훈복지의료공단",
+        "apply_end": "2026-11-10",
+        "categories": []
+      }
+    },
+    "linkareer:360670": {
+      "title": "Echo of Reflectara 배경음악(BGM) 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-17",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360670",
+        "title": "Echo of Reflectara 배경음악(BGM) 공모",
+        "url": "https://linkareer.com/activity/360670",
+        "host": "(주)레몬사운드",
+        "apply_end": "2026-11-17",
+        "categories": []
+      }
+    },
+    "linkareer:360689": {
+      "title": "로고 디자인 공모전: 유랑 사회적협동조합",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360689",
+        "title": "로고 디자인 공모전: 유랑 사회적협동조합",
+        "url": "https://linkareer.com/activity/360689",
+        "host": "유랑 사회적협동조합",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:360691": {
+      "title": "[문학광장] 격월간 문학광장 제122기 신인문학상 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-25",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360691",
+        "title": "[문학광장] 격월간 문학광장 제122기 신인문학상 공모",
+        "url": "https://linkareer.com/activity/360691",
+        "host": "문학광장",
+        "apply_end": "2026-11-25",
+        "categories": []
+      }
+    },
+    "linkareer:360695": {
+      "title": "[대전광역시 사회혁신센터] 귀 쫑긋! '우리' 활용 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-22",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360695",
+        "title": "[대전광역시 사회혁신센터] 귀 쫑긋! '우리' 활용 공모전",
+        "url": "https://linkareer.com/activity/360695",
+        "host": "대전광역시 사회혁신센터",
+        "apply_end": "2026-11-22",
+        "categories": []
+      }
+    },
+    "linkareer:360706": {
+      "title": "2026년 천씨씨커피 Film Festa 영상 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-16",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360706",
+        "title": "2026년 천씨씨커피 Film Festa 영상 공모전",
+        "url": "https://linkareer.com/activity/360706",
+        "host": "천씨씨커피",
+        "apply_end": "2026-11-16",
+        "categories": []
+      }
+    },
+    "linkareer:360714": {
+      "title": "애니메이션 HELL-BENT 사운드트랙 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360714",
+        "title": "애니메이션 HELL-BENT 사운드트랙 공모",
+        "url": "https://linkareer.com/activity/360714",
+        "host": "(주)레몬사운드",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:360837": {
+      "title": "제2회 손상예방의날 기념 경북권 손상 예방 포스터 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-08",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360837",
+        "title": "제2회 손상예방의날 기념 경북권 손상 예방 포스터 공모전",
+        "url": "https://linkareer.com/activity/360837",
+        "host": "경북권질병대응센터",
+        "apply_end": "2026-11-08",
+        "categories": []
+      }
+    },
+    "linkareer:360840": {
+      "title": "제9회 만화일러스트 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-23",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360840",
+        "title": "제9회 만화일러스트 공모전",
+        "url": "https://linkareer.com/activity/360840",
+        "host": "서울시",
+        "apply_end": "2026-11-23",
+        "categories": []
+      }
+    },
+    "linkareer:360841": {
+      "title": "제3회 인천출판문화상",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-13",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360841",
+        "title": "제3회 인천출판문화상",
+        "url": "https://linkareer.com/activity/360841",
+        "host": "인천투데이",
+        "apply_end": "2026-11-13",
+        "categories": []
+      }
+    },
+    "linkareer:360851": {
+      "title": "[횡성군] 2026년「횡성 숨은 매력 찾기」공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360851",
+        "title": "[횡성군] 2026년「횡성 숨은 매력 찾기」공모전",
+        "url": "https://linkareer.com/activity/360851",
+        "host": "횡성군",
+        "apply_end": "2026-11-11",
+        "categories": []
+      }
+    },
+    "linkareer:360855": {
+      "title": "「상급종합병원 구조전환 지원사업」 2026년 진료협력 우수사례 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-13",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360855",
+        "title": "「상급종합병원 구조전환 지원사업」 2026년 진료협력 우수사례 공모전",
+        "url": "https://linkareer.com/activity/360855",
+        "host": "건강보험심사평가원",
+        "apply_end": "2026-11-13",
+        "categories": []
+      }
+    },
+    "linkareer:360858": {
+      "title": "[칠곡군청맛길] 2026 칠곡 군청맛길 숏폼 영상 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360858",
+        "title": "[칠곡군청맛길] 2026 칠곡 군청맛길 숏폼 영상 공모전",
+        "url": "https://linkareer.com/activity/360858",
+        "host": "칠곡군청맛길",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:360860": {
+      "title": "[식품의약품안전처] 식중독 예방 숏폼 영상 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-23",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360860",
+        "title": "[식품의약품안전처] 식중독 예방 숏폼 영상 공모전",
+        "url": "https://linkareer.com/activity/360860",
+        "host": "식품의약품안전처",
+        "apply_end": "2026-11-23",
+        "categories": []
+      }
+    },
+    "linkareer:360877": {
+      "title": "문화예술 후원 단체 ‘튠인’ 해시태그 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-31",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360877",
+        "title": "문화예술 후원 단체 ‘튠인’ 해시태그 공모전",
+        "url": "https://linkareer.com/activity/360877",
+        "host": "튠인",
+        "apply_end": "2026-12-31",
+        "categories": []
+      }
+    },
+    "linkareer:360894": {
+      "title": "타구·바쿠와 함께하는 신규 캐릭터 기념품 디자인 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-29",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360894",
+        "title": "타구·바쿠와 함께하는 신규 캐릭터 기념품 디자인 공모전",
+        "url": "https://linkareer.com/activity/360894",
+        "host": "대구교통공사",
+        "apply_end": "2026-11-29",
+        "categories": []
+      }
+    },
+    "linkareer:360954": {
+      "title": "에이블리 에블프 퀸 선발대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-24",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360954",
+        "title": "에이블리 에블프 퀸 선발대회",
+        "url": "https://linkareer.com/activity/360954",
+        "host": "(주)에이블리코퍼레이션",
+        "apply_end": "2026-11-24",
+        "categories": []
+      }
+    },
+    "linkareer:360963": {
+      "title": "제 1회 하나증권 청년 금융아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "360963",
+        "title": "제 1회 하나증권 청년 금융아이디어 공모전",
+        "url": "https://linkareer.com/activity/360963",
+        "host": "하나증권",
+        "apply_end": "2026-11-30",
+        "categories": []
+      }
+    },
+    "linkareer:361045": {
+      "title": "이번 11월 부여 어때 숏폼 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-30",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361045",
+        "title": "이번 11월 부여 어때 숏폼 공모",
+        "url": "https://linkareer.com/activity/361045",
+        "host": "부여군청",
+        "apply_end": "2026-11-30",
+        "categories": []
+      }
+    },
+    "linkareer:361047": {
+      "title": "2026 Soul Mate Pioneers 창업경진대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-15",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361047",
+        "title": "2026 Soul Mate Pioneers 창업경진대회",
+        "url": "https://linkareer.com/activity/361047",
+        "host": "서울앵커센터",
+        "apply_end": "2026-11-15",
+        "categories": []
+      }
+    },
+    "linkareer:361048": {
+      "title": "전국 알밤 베이커리·떡 경연대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-18",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361048",
+        "title": "전국 알밤 베이커리·떡 경연대회",
+        "url": "https://linkareer.com/activity/361048",
+        "host": "공주시",
+        "apply_end": "2026-12-18",
+        "categories": []
+      }
+    },
+    "linkareer:361049": {
+      "title": "2026 미미홈 꾸미기 콘테스트 (미미홈꾸)",
+      "first_seen": "2026-11-02",
+      "apply_end": "2027-01-31",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361049",
+        "title": "2026 미미홈 꾸미기 콘테스트 (미미홈꾸)",
+        "url": "https://linkareer.com/activity/361049",
+        "host": "(주)미미월드",
+        "apply_end": "2027-01-31",
+        "categories": []
+      }
+    },
+    "linkareer:361051": {
+      "title": "2026년 대국민 재정교육 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-27",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361051",
+        "title": "2026년 대국민 재정교육 아이디어 공모전",
+        "url": "https://linkareer.com/activity/361051",
+        "host": "기획예산처",
+        "apply_end": "2026-11-27",
+        "categories": []
+      }
+    },
+    "linkareer:361052": {
+      "title": "2026 성평등 AI 벤치마크 챌린지 참가팀 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361052",
+        "title": "2026 성평등 AI 벤치마크 챌린지 참가팀 모집",
+        "url": "https://linkareer.com/activity/361052",
+        "host": "성평등가족부",
+        "apply_end": "2026-11-20",
+        "categories": []
+      }
+    },
+    "linkareer:361056": {
+      "title": "강남구중독관리통합지원센터 캐릭터 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-22",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361056",
+        "title": "강남구중독관리통합지원센터 캐릭터 공모전",
+        "url": "https://linkareer.com/activity/361056",
+        "host": "강남구중독관리통합지원센터",
+        "apply_end": "2026-11-22",
+        "categories": []
+      }
+    },
+    "linkareer:361058": {
+      "title": "'젊은 시각 새로운 시선 2027' 참여 작가 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-22",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361058",
+        "title": "'젊은 시각 새로운 시선 2027' 참여 작가 공모",
+        "url": "https://linkareer.com/activity/361058",
+        "host": "부산시립미술관",
+        "apply_end": "2026-11-22",
+        "categories": []
+      }
+    },
+    "linkareer:361059": {
+      "title": "제2회 코리아 프롬스(오케스트라 협연 콩쿠르)",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-23",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361059",
+        "title": "제2회 코리아 프롬스(오케스트라 협연 콩쿠르)",
+        "url": "https://linkareer.com/activity/361059",
+        "host": "코리아 프롬스 조직위원회",
+        "apply_end": "2026-11-23",
+        "categories": []
+      }
+    },
+    "linkareer:361060": {
+      "title": "2027 CICA 영 코리안 아티스트 개인전 시리즈 작가 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-18",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361060",
+        "title": "2027 CICA 영 코리안 아티스트 개인전 시리즈 작가 공모",
+        "url": "https://linkareer.com/activity/361060",
+        "host": "CICA 미술관",
+        "apply_end": "2026-11-18",
+        "categories": []
+      }
+    },
+    "linkareer:361061": {
+      "title": "한림대학교 졸업생 특화 프로그램 - 우수 프로그램 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-12",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361061",
+        "title": "한림대학교 졸업생 특화 프로그램 - 우수 프로그램 아이디어 공모전",
+        "url": "https://linkareer.com/activity/361061",
+        "host": "한림대학교 대학일자리플러스센터",
+        "apply_end": "2026-11-12",
+        "categories": []
+      }
+    },
+    "linkareer:361063": {
+      "title": "2026년 제2회 Tech-GPT 서비스 경진대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-06",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361063",
+        "title": "2026년 제2회 Tech-GPT 서비스 경진대회",
+        "url": "https://linkareer.com/activity/361063",
+        "host": "한국전자정보통신산업진흥회",
+        "apply_end": "2026-11-06",
+        "categories": []
+      }
+    },
+    "linkareer:361065": {
+      "title": "제7회 가산 환경사랑 어린이 미술대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-29",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361065",
+        "title": "제7회 가산 환경사랑 어린이 미술대회",
+        "url": "https://linkareer.com/activity/361065",
+        "host": "광동제약",
+        "apply_end": "2026-11-29",
+        "categories": []
+      }
+    },
+    "linkareer:361066": {
+      "title": "국가무형유산 상설공연 창작 콘텐츠 개발을 위한 대국민 아이디어 발굴대회",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-18",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361066",
+        "title": "국가무형유산 상설공연 창작 콘텐츠 개발을 위한 대국민 아이디어 발굴대회",
+        "url": "https://linkareer.com/activity/361066",
+        "host": "국가유산청",
+        "apply_end": "2026-11-18",
+        "categories": []
+      }
+    },
+    "linkareer:361067": {
+      "title": "2026년 지방소멸 대응 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-18",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361067",
+        "title": "2026년 지방소멸 대응 아이디어 공모전",
+        "url": "https://linkareer.com/activity/361067",
+        "host": "완도군",
+        "apply_end": "2026-11-18",
+        "categories": []
+      }
+    },
+    "linkareer:361137": {
+      "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-17",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361137",
+        "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
+        "url": "https://linkareer.com/activity/361137",
+        "host": "주식회사 어치브모먼트",
+        "apply_end": "2026-11-17",
+        "categories": []
+      }
+    },
+    "linkareer:361174": {
+      "title": "제47회 《문명 그 화려한 역설》 69개의 표지비밀 풀기 프로젝트 공모 (1억고료 문학상 수상작)",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-31",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "linkareer",
+        "id": "361174",
+        "title": "제47회 《문명 그 화려한 역설》 69개의 표지비밀 풀기 프로젝트 공모 (1억고료 문학상 수상작)",
+        "url": "https://linkareer.com/activity/361174",
+        "host": "도서출판 글여울",
+        "apply_end": "2026-12-31",
         "categories": []
       }
     },
@@ -1174,6 +2687,44 @@
         ]
       }
     },
+    "wevity:111917": {
+      "title": "2027 매일신춘문예 공모",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-09",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111917",
+        "title": "2027 매일신춘문예 공모",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111917",
+        "host": "매일신문사",
+        "apply_end": "2026-12-09",
+        "categories": [
+          "문학/글/시나리오"
+        ]
+      }
+    },
+    "wevity:111918": {
+      "title": "모두의 KISA 공모 - KISA에게 바란다 모두의 KISA",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111918",
+        "title": "모두의 KISA 공모 - KISA에게 바란다 모두의 KISA",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111918",
+        "host": "한국인터넷진흥원",
+        "apply_end": "2026-11-11",
+        "categories": [
+          "예체능/미술/음악"
+        ]
+      }
+    },
     "wevity:111921": {
       "title": "2026 농림식품기술기획평가원 iPET 서포터즈 5기 모집",
       "first_seen": "2026-10-27",
@@ -1197,6 +2748,504 @@
       "it": false,
       "status": "sent",
       "issue": 1
+    },
+    "wevity:111932": {
+      "title": "2026년 한국전력기술 미래사업 과제 발굴을 위한 혁신 아이디어 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-07",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111932",
+        "title": "2026년 한국전력기술 미래사업 과제 발굴을 위한 혁신 아이디어 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111932",
+        "host": "한국전력기술(주)",
+        "apply_end": "2026-11-07",
+        "categories": [
+          "기획/아이디어"
+        ]
+      }
+    },
+    "wevity:111936": {
+      "title": "환경을 담다 지속가능한 강원 환경 사진 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-04",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111936",
+        "title": "환경을 담다 지속가능한 강원 환경 사진 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111936",
+        "host": "강원특별자치도 지속가능발전협의회",
+        "apply_end": "2026-11-04",
+        "categories": [
+          "영상/UCC/사진"
+        ]
+      }
+    },
+    "wevity:111938": {
+      "title": "완주군 피지컬AI 실증단지 명칭 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-16",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111938",
+        "title": "완주군 피지컬AI 실증단지 명칭 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111938",
+        "host": "완주군",
+        "apply_end": "2026-11-16",
+        "categories": [
+          "네이밍/슬로건"
+        ]
+      }
+    },
+    "wevity:111940": {
+      "title": "국립청주해양과학관 개관 기념 대국민 슬로건 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-16",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111940",
+        "title": "국립청주해양과학관 개관 기념 대국민 슬로건 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111940",
+        "host": "국립청주해양과학관",
+        "apply_end": "2026-11-16",
+        "categories": [
+          "네이밍/슬로건"
+        ]
+      }
+    },
+    "wevity:111943": {
+      "title": "부천 청년히어로를 찾아라",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-17",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111943",
+        "title": "부천 청년히어로를 찾아라",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111943",
+        "host": "부천시청",
+        "apply_end": "2026-11-17",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111944": {
+      "title": "우리가게 보탬이야기 소상공인 우수사례 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-07",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111944",
+        "title": "우리가게 보탬이야기 소상공인 우수사례 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111944",
+        "host": "서울신용보증재단",
+        "apply_end": "2026-11-07",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111949": {
+      "title": "제2회 잠실 미디어아트 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-28",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111949",
+        "title": "제2회 잠실 미디어아트 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111949",
+        "host": "서울시설공단",
+        "apply_end": "2026-11-28",
+        "categories": [
+          "영상/UCC/사진"
+        ]
+      }
+    },
+    "wevity:111953": {
+      "title": "제 19기 기상청 국민정책기자단 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-20",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111953",
+        "title": "제 19기 기상청 국민정책기자단 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111953",
+        "host": "기상청",
+        "apply_end": "2026-11-20",
+        "categories": [
+          "대외활동/서포터즈"
+        ]
+      }
+    },
+    "wevity:111956": {
+      "title": "2026 세계 토양의날 챌린지",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-06",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111956",
+        "title": "2026 세계 토양의날 챌린지",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111956",
+        "host": "기후에너지환경부",
+        "apply_end": "2026-12-06",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111965": {
+      "title": "2026 AI 활용 전국 대학생 창업 해커톤 참가자 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-12",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111965",
+        "title": "2026 AI 활용 전국 대학생 창업 해커톤 참가자 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111965",
+        "host": "교육부, 한국교육학술정보원(KERIS)",
+        "apply_end": "2026-11-12",
+        "categories": [
+          "기획/아이디어"
+        ]
+      }
+    },
+    "wevity:111981": {
+      "title": "2026 대구 대학(원) AI 드래프톤 참가팀 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-16",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111981",
+        "title": "2026 대구 대학(원) AI 드래프톤 참가팀 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111981",
+        "host": "대구시",
+        "apply_end": "2026-11-16",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111984": {
+      "title": "송파청년센터 청년 소모임 활동지원 송파로 참여 커뮤니티 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-09",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111984",
+        "title": "송파청년센터 청년 소모임 활동지원 송파로 참여 커뮤니티 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111984",
+        "host": "송파구청",
+        "apply_end": "2026-11-09",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111994": {
+      "title": "[국민체육진흥공단] 체육시설 안전·경영 우수사례 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-07",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111994",
+        "title": "[국민체육진흥공단] 체육시설 안전·경영 우수사례 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111994",
+        "host": "국민체육진흥공단",
+        "apply_end": "2026-11-07",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111997": {
+      "title": "[고민줌인] 대학생 서포터즈 2기 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-10",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111997",
+        "title": "[고민줌인] 대학생 서포터즈 2기 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111997",
+        "host": "(주)텔로스",
+        "apply_end": "2026-11-10",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:111998": {
+      "title": "2035 AI·디지털 전환 시민숙의 패널 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-05",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "111998",
+        "title": "2035 AI·디지털 전환 시민숙의 패널 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111998",
+        "host": "정보통신정책연구원(KISDI)",
+        "apply_end": "2026-11-05",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:112008": {
+      "title": "2026 칠곡군청맛길 숏폼 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-07",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112008",
+        "title": "2026 칠곡군청맛길 숏폼 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112008",
+        "host": "칠곡군청맛길",
+        "apply_end": "2026-11-07",
+        "categories": [
+          "영상/UCC/사진"
+        ]
+      }
+    },
+    "wevity:112015": {
+      "title": "[코리아 인디게임 쇼케이스] 2026 인디게임 서포터즈 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-12",
+      "it": true,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112015",
+        "title": "[코리아 인디게임 쇼케이스] 2026 인디게임 서포터즈 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112015",
+        "host": "한국콘텐츠진흥원",
+        "apply_end": "2026-11-12",
+        "categories": [
+          "게임/소프트웨어"
+        ]
+      }
+    },
+    "wevity:112017": {
+      "title": "2026 유성 관광 크리에이터 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-12",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112017",
+        "title": "2026 유성 관광 크리에이터 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112017",
+        "host": "유성구청",
+        "apply_end": "2026-11-12",
+        "categories": [
+          "기타"
+        ]
+      }
+    },
+    "wevity:112021": {
+      "title": "VIVID RE:PLAY 6개 IP로 만드는 AI영상 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-14",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112021",
+        "title": "VIVID RE:PLAY 6개 IP로 만드는 AI영상 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112021",
+        "host": "(주)아캐인",
+        "apply_end": "2026-12-14",
+        "categories": [
+          "영상/UCC/사진"
+        ]
+      }
+    },
+    "wevity:112022": {
+      "title": "2026 경산시 AI 미디어 콘텐츠 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-24",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112022",
+        "title": "2026 경산시 AI 미디어 콘텐츠 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112022",
+        "host": "경산시",
+        "apply_end": "2026-11-24",
+        "categories": [
+          "영상/UCC/사진"
+        ]
+      }
+    },
+    "wevity:112025": {
+      "title": "SNS 홍보단 모집(상조+가전제품 결합상품 소비자 피해예방 캠페인)",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-05",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112025",
+        "title": "SNS 홍보단 모집(상조+가전제품 결합상품 소비자 피해예방 캠페인)",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112025",
+        "host": "한국여성소비자연합",
+        "apply_end": "2026-11-05",
+        "categories": [
+          "대외활동/서포터즈"
+        ]
+      }
+    },
+    "wevity:112035": {
+      "title": "SOOP프레스 8기 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-11",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112035",
+        "title": "SOOP프레스 8기 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112035",
+        "host": "주식회사 숲",
+        "apply_end": "2026-11-11",
+        "categories": [
+          "대외활동/서포터즈"
+        ]
+      }
+    },
+    "wevity:112042": {
+      "title": "2027 레드불 대학생 마케터 모집",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-28",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112042",
+        "title": "2027 레드불 대학생 마케터 모집",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112042",
+        "host": "레드불 코리아 유한회사",
+        "apply_end": "2026-11-28",
+        "categories": [
+          "광고/마케팅"
+        ]
+      }
+    },
+    "wevity:112044": {
+      "title": "이번 11월 부여 어때 숏폼 공모전",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-12-01",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112044",
+        "title": "이번 11월 부여 어때 숏폼 공모전",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112044",
+        "host": "부여군청",
+        "apply_end": "2026-12-01",
+        "categories": [
+          "영상/UCC/사진"
+        ]
+      }
+    },
+    "wevity:112063": {
+      "title": "건강보험심사평가원 광고 온에어 기념 이벤트",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-16",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112063",
+        "title": "건강보험심사평가원 광고 온에어 기념 이벤트",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112063",
+        "host": "건강보험심사평가원",
+        "apply_end": "2026-11-16",
+        "categories": [
+          "광고/마케팅",
+          "영상/UCC/사진",
+          "웹/모바일/IT",
+          "예체능/미술/음악",
+          "기타"
+        ]
+      }
+    },
+    "wevity:112065": {
+      "title": "소싱인마켓 급부상 AI광고제",
+      "first_seen": "2026-11-02",
+      "apply_end": "2026-11-12",
+      "it": false,
+      "status": "pending",
+      "issue": null,
+      "listing": {
+        "source": "wevity",
+        "id": "112065",
+        "title": "소싱인마켓 급부상 AI광고제",
+        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112065",
+        "host": "소싱인마켓 2026",
+        "apply_end": "2026-11-12",
+        "categories": [
+          "광고/마케팅"
+        ]
+      }
     }
   }
 }
