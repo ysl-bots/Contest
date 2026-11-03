@@ -46,3 +46,12 @@ def test_linkareer_detail(load, today):
 def test_linkareer_structure_change():
     with pytest.raises(ValueError, match="__NEXT_DATA__"):
         linkareer.parse_list("<html>no data</html>")
+
+
+def test_wevity_collect_uses_injected_today(http, today):
+    """D-day는 실행 시점이 아니라 주입한 today 기준으로 해석해야 테스트가 날짜에 따라 깨지지 않는다."""
+    from datetime import timedelta
+
+    items = wevity.WevitySource(http, 1, today).collect()
+    first = next(i for i in items if i.id == "900001")  # 목록 표기 D-5
+    assert first.apply_end == today + timedelta(days=5)
