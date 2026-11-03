@@ -2,6 +2,7 @@
 
 status: sent(발송) · skipped(마감 등으로 발송 안 함) · pending(분류는 끝났고 발행 대기 중)
 it: IT 트랙(true)·Non-IT 트랙(false) 구분.
+moved: 상세를 보고 트랙을 한 번 옮긴 건. 다시 옮기지 않아 왕복을 막는다.
 pending은 목록 메타데이터를 함께 저장해, 목록 페이지에서 밀려나도 다음 실행에서 우선 처리한다.
 """
 
@@ -44,6 +45,9 @@ class State:
                 out.append(Listing(**d))
         return out
 
+    def was_moved(self, key: str) -> bool:
+        return bool(self.items.get(key, {}).get("moved"))
+
     def seen_titles(self) -> set[str]:
         from .filters import title_keys
 
@@ -51,7 +55,7 @@ class State:
 
     def mark(self, key: str, today: date, apply_end: date | None, issue_number: int | None,
              title: str | None = None, is_it: bool | None = None, status: str | None = None,
-             listing: Listing | None = None) -> None:
+             listing: Listing | None = None, moved: bool = False) -> None:
         prev = self.items.get(key, {})
         item = {
             "title": title,
@@ -61,6 +65,8 @@ class State:
             "status": status or ("sent" if issue_number else "skipped"),
             "issue": issue_number,
         }
+        if moved or prev.get("moved"):
+            item["moved"] = True
         if item["status"] == PENDING and listing:
             item["listing"] = {**listing.__dict__,
                                "apply_end": listing.apply_end.isoformat() if listing.apply_end else None}

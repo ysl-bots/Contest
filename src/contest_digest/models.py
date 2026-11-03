@@ -61,6 +61,8 @@ class Extraction(BaseModel):
     submission: str | None = None
     # 단발성 경진대회·공모전이고 수상·상금 등 보상이 있는가. 서포터즈·기자단·참여자 모집 등은 false
     is_competition: bool = True
+    # 상세·포스터를 보고 판단한 IT·데이터·AI 여부. 목록 메타데이터만으로 한 classify 판정을 보정한다
+    is_it: bool | None = None
 
 
 class Contest(Extraction):
