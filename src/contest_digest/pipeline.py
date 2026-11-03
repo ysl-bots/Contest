@@ -68,11 +68,12 @@ class RunResult:
         return sum(1 for m in self.marks if m.status == PENDING and m.is_it != (self.track == "it"))
 
 
-def collect(http: HttpClient, settings: Settings, names: list[str]) -> tuple[list[Listing], dict[str, str]]:
+def collect(http: HttpClient, settings: Settings, names: list[str],
+            today: date | None = None) -> tuple[list[Listing], dict[str, str]]:
     listings, failures = [], {}
     for name in names:
         try:
-            got = SOURCES[name](http, settings.max_pages).collect()
+            got = SOURCES[name](http, settings.max_pages, today).collect()
             log.info("%s: %d건 수집", name, len(got))
             listings += got
         except Exception as exc:  # noqa: BLE001 - 소스 하나가 실패해도 계속
@@ -89,7 +90,7 @@ def classify_new(settings: Settings, http: HttpClient, state: State, today: date
                  use_llm: bool = True, classifier: Classifier | None = None) -> ClassifyResult:
     """신규 건을 수집·분류해 트랙(it 여부)과 함께 pending으로 state에 넣는다."""
     result = ClassifyResult()
-    listings, result.failures = collect(http, settings, names)
+    listings, result.failures = collect(http, settings, names, today)
     result.collected = len(listings)
     pending_keys = {it.key for it in state.pending()}
     new = select_new(listings, state.seen() | pending_keys, today, state.seen_titles())
@@ -132,7 +133,7 @@ def process(settings: Settings, http: HttpClient, state: State, today: date, tra
     for listing in todo:
         try:
             if listing.source not in sources:
-                sources[listing.source] = SOURCES[listing.source](http, settings.max_pages)
+                sources[listing.source] = SOURCES[listing.source](http, settings.max_pages, today)
             detail = sources[listing.source].fetch(listing)
         except Exception as exc:  # noqa: BLE001
             log.warning("%s 상세 수집 실패: %s", listing.key, exc)

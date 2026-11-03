@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
+from datetime import date
 
 from bs4 import BeautifulSoup
 
@@ -13,9 +14,10 @@ from ..models import Detail, Listing
 class Source(ABC):
     name: str
 
-    def __init__(self, client: HttpClient, max_pages: int = 3):
+    def __init__(self, client: HttpClient, max_pages: int = 3, today: date | None = None):
         self.client = client
         self.max_pages = max_pages
+        self.today = today  # D-day 등 상대 날짜 해석 기준. None이면 실행 시점(KST)
 
     @abstractmethod
     def collect(self) -> list[Listing]:

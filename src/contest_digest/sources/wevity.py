@@ -86,7 +86,7 @@ class WevitySource(Source):
     name = "wevity"
 
     def collect(self) -> list[Listing]:
-        today = today_kst().date()
+        today = self.today or today_kst().date()
         seen: dict[str, Listing] = {}
         for page in range(1, self.max_pages + 1):
             items = parse_list(self.client.get_text(list_url(page)), today)
