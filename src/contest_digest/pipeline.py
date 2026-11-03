@@ -31,6 +31,7 @@ class Mark:
     is_it: bool
     apply_end: date | None = None
     status: str = "skipped"  # sent · skipped · pending
+    moved: bool = False  # 상세를 보고 다른 트랙으로 옮긴 건
 
 
 @dataclass
@@ -84,6 +85,13 @@ def collect(http: HttpClient, settings: Settings, names: list[str],
 
 def _by_deadline(items: list[Listing]) -> list[Listing]:
     return sorted(items, key=lambda x: (x.apply_end or date.max, x.key))
+
+
+def _detail_says_other_track(contest: Contest, is_it: bool) -> bool:
+    if is_it:
+        return contest.category in NON_IT_CATEGORIES
+    # Non-IT → IT는 VLM의 is_it 판단과 IT 분야 category가 모두 맞을 때만 (오탐으로 IT 이슈가 오염되지 않게)
+    return contest.is_it is True and bool(contest.category) and contest.category not in NON_IT_CATEGORIES
 
 
 def classify_new(settings: Settings, http: HttpClient, state: State, today: date, names: list[str],
@@ -144,9 +152,10 @@ def process(settings: Settings, http: HttpClient, state: State, today: date, tra
             result.marks.append(Mark(listing, is_it, end))
             continue
         contest = extractor.extract(detail, today) if extractor else metadata_only(detail)
-        if is_it and contest.category in NON_IT_CATEGORIES:
-            # 상세를 보고 나서야 비IT로 드러난 경우 Non-IT 트랙으로 넘긴다 (반대 방향은 하지 않아 왕복을 막는다)
-            result.marks.append(Mark(listing, False, end, PENDING))
+        if not state.was_moved(listing.key) and _detail_says_other_track(contest, is_it):
+            # 상세를 보고 나서야 다른 트랙으로 드러난 경우 넘긴다. 한 번 옮긴 건은 다시 옮기지 않아 왕복을 막는다
+            log.info("%s 트랙 이동 (%s → %s): %s", listing.key, track, "non-it" if is_it else "it", listing.title[:40])
+            result.marks.append(Mark(listing, not is_it, end, PENDING, moved=True))
             continue
         if not contest.is_competition:
             # 상세를 보고 단발성 대회·보상 기준에 맞지 않는 모집으로 드러난 경우
@@ -174,4 +183,5 @@ def save_marks(state: State, result: RunResult, today: date, issue: int | None) 
     for m in result.marks:
         sent = m.status == "sent"
         state.mark(m.listing.key, today, m.apply_end, issue if sent else None, title=m.listing.title,
-                   is_it=m.is_it, status=m.status if not sent or issue else PENDING, listing=m.listing)
+                   is_it=m.is_it, status=m.status if not sent or issue else PENDING, listing=m.listing,
+                   moved=m.moved)

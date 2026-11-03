@@ -204,3 +204,51 @@ def test_non_it_track_drops_non_competitions(http, today):
     assert r_it.contests == [] and [it.key for it in r_it.excluded] == ["wevity:8"]
     assert {m.listing.key: m.status for m in r.marks} == {"wevity:9": "skipped", "wevity:900003": "skipped",
                                                           "wevity:900002": "sent"}
+
+
+def _pending_non_it(state, today, *keys):
+    from contest_digest.models import Listing
+
+    for k in keys:
+        it = Listing("wevity", k, f"제목 {k}", f"https://www.wevity.com/?c=find&s=1&gbn=view&ix={k}")
+        state.mark(it.key, today, None, None, title=it.title, is_it=False, status="pending", listing=it)
+
+
+def test_non_it_track_promotes_once_when_detail_says_it(http, today):
+    from contest_digest.extract import metadata_only
+    from contest_digest.pipeline import save_marks
+
+    class FakeExtractor:
+        def extract(self, detail, today):
+            c = metadata_only(detail)
+            k = detail.listing.key
+            # 900001: 상세상 AI 과제 해결형 → IT로 이동 / 900002: 이름에만 AI(명칭 공모) → 이동 안 함
+            c.is_it, c.category = {"wevity:900001": (True, "AI/데이터"),
+                                   "wevity:900002": (True, "기획/마케팅")}.get(k, (False, "디자인/영상"))
+            return c
+
+    state = State()
+    _pending_non_it(state, today, "900001", "900002")
+    r = process(Settings(), http, state, today, "non-it", use_llm=False, extractor=FakeExtractor())
+    assert [c.key for c in r.contests] == ["wevity:900002"] and r.moved == 1
+    save_marks(state, r, today, issue=2)
+    assert [it.key for it in state.pending(True)] == ["wevity:900001"]
+    assert state.was_moved("wevity:900001")
+
+    # IT 트랙에서 상세가 비IT로 보여도 이미 한 번 옮긴 건은 되돌리지 않는다
+    class NonItExtractor:
+        def extract(self, detail, today):
+            c = metadata_only(detail)
+            c.category = "디자인/영상"
+            return c
+
+    r2 = process(Settings(), http, state, today, "it", use_llm=False, extractor=NonItExtractor())
+    assert [c.key for c in r2.contests] == ["wevity:900001"] and r2.moved == 0
+
+
+def test_keyword_rule_knows_ax():
+    from contest_digest.filters import is_it_related
+    from contest_digest.models import Listing
+
+    assert is_it_related(Listing("linkareer", "1", "LOTTE AX CHALLENGE 2026", "u"))
+    assert not is_it_related(Listing("linkareer", "2", "MAX 사진 공모전", "u"))
