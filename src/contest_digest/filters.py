@@ -99,21 +99,32 @@ def is_same_contest(a: Fingerprint, b: Fingerprint) -> bool:
     """제목 유사도·주최·마감일을 종합해 같은 공모전인지 판단한다.
 
     - 정규화 제목이 같으면 같은 공모전 (기존 규칙)
-    - 같은 소스의 다른 ID는 제목이 같지 않으면 별개로 본다 (소스 안에서는 ID가 기준)
+    - 같은 소스의 다른 ID는 마감일까지 같을 때만 같은 공모전 후보로 본다 (같은 소스 재등록 대응)
     - 마감일이 둘 다 있고 다르면 거의 같은 제목일 때만 같은 것으로 본다 (회차·연도 구분)
     - 그 외에는 핵심 제목(연도·'공모전' 등 꼬리말·괄호 제외) 유사도에 주최·마감 일치를 더해 판정
     """
     if a.keys & b.keys:
         return True
-    if a.source and a.source == b.source:
+    host = _host_match(a, b)
+    ca, cb = a.core, b.core
+    if host:
+        # 주최명이 제목 대부분이면 같은 기관의 다른 공모전도 비슷해 보이므로 주최명을 빼고 비교한다
+        for h in sorted(a.hosts | b.hosts, key=len, reverse=True):
+            ca, cb = ca.replace(h, ""), cb.replace(h, "")
+        if len(ca) < 4 or len(cb) < 4:
+            ca, cb = a.core, b.core
+    if not ca or not cb:
         return False
-    if not a.core or not b.core:
-        return False
-    sim = _dice(a.core, b.core)
-    short, long_ = sorted((a.core, b.core), key=len)
+    sim = _dice(ca, cb)
+    short, long_ = sorted((ca, cb), key=len)
     if len(short) >= 4 and short in long_:
         sim = max(sim, 0.85)
+    ga, gb = _bigrams(ca), _bigrams(cb)
+    if min(len(ga), len(gb)) >= 6:  # 어순만 바뀐 제목: 짧은 쪽 bigram이 대부분 긴 쪽에 있음
+        sim = max(sim, 0.9 * len(ga & gb) / min(len(ga), len(gb)))
     same_end = a.apply_end is not None and a.apply_end == b.apply_end
+    if a.source and a.source == b.source and not same_end:
+        return False
     diff_end = a.apply_end is not None and b.apply_end is not None and not same_end
     host = _host_match(a, b)
     if diff_end:

@@ -81,8 +81,19 @@ def test_cross_source_fuzzy_dedupe(today):
     # 같은 주최의 다른 공모전은 별개
     assert not is_same_contest(fp("2026년 체육관련 규제개선 대국민 아이디어 공모전", "국민체육진흥공단", today + timedelta(days=16)),
                                fp("[국민체육진흥공단] 체육시설 안전·경영 우수사례 공모", "국민체육진흥공단", source="linkareer"))
-    # 같은 소스 안에서는 ID가 다르면 별개
-    assert not is_same_contest(fp("칠곡 숏폼 공모전"), fp("칠곡 숏폼 영상 공모전"))
+    # 같은 소스라도 마감·내용이 같으면 재등록으로 본다
+    assert is_same_contest(fp("2026 「다시, 다리다」 유휴공간 활성화 아이디어 공모전", "문화정원", source="linkareer"),
+                           fp("[문화정원] 2026 (다시, 다리다) 유휴공간 활성화 아이디어 공모전", "문화정원", source="linkareer"))
+    assert is_same_contest(fp("2027 KSPO 스포츠가치센터 슬로건 공모전", "KSPO스포츠가치센터", source="linkareer"),
+                           fp("스포츠가치센터 슬로건 공모전", "국민체육진흥공단 스츠가치센터", source="linkareer"))
+    # 어순만 바뀐 제목
+    assert is_same_contest(fp("KISA에게 바란다, 국민이 함께하는 '모두의 KISA'", "한국인터넷진흥원", source="linkareer"),
+                           fp("모두의 KISA 공모 - KISA에게 바란다 모두의 KISA", "한국인터넷진흥원"))
+    # 같은 소스에서 마감이 다르면 별개
+    assert not is_same_contest(fp("칠곡 숏폼 공모전"), fp("칠곡 숏폼 영상 공모전", end=today + timedelta(days=5)))
+    # 같은 기관·같은 마감의 다른 프로그램은 별개 (주최명이 제목 대부분인 경우)
+    assert not is_same_contest(fp("2026 농림식품기술기획평가원 iPET 서포터즈 5기 모집", "농림식품기술기획평가원"),
+                               fp("2026 농림식품기술기획평가원 iPET 농플루언서 모집", "농림식품기술기획평가원"))
     # 마감이 크게 다르면 비슷한 제목이어도 별개 (회차 차이)
     assert not is_same_contest(fp("청년 정책 아이디어 공모전", "A재단"),
                                fp("청년 정책 아이디어 공모", "B협회", today + timedelta(days=60), "linkareer"))
