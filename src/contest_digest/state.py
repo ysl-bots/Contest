@@ -48,17 +48,17 @@ class State:
     def was_moved(self, key: str) -> bool:
         return bool(self.items.get(key, {}).get("moved"))
 
-    def fingerprints(self) -> list:
-        """중복 판정용으로 저장된 모든 건(처리·대기)의 Fingerprint."""
+    def fingerprints(self) -> dict:
+        """중복 판정용으로 저장된 모든 건(처리·대기)의 키 → Fingerprint."""
         from .filters import Fingerprint
 
-        out = []
+        out = {}
         for key, v in self.items.items():
             if not v.get("title"):
                 continue
             end = date.fromisoformat(v["apply_end"]) if v.get("apply_end") else None
             host = v.get("host") or (v.get("listing") or {}).get("host")
-            out.append(Fingerprint.of(v["title"], host, end, key.split(":", 1)[0]))
+            out[key] = Fingerprint.of(v["title"], host, end, key.split(":", 1)[0])
         return out
 
     def mark(self, key: str, today: date, apply_end: date | None, issue_number: int | None,

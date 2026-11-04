@@ -252,3 +252,28 @@ def test_keyword_rule_knows_ax():
 
     assert is_it_related(Listing("linkareer", "1", "LOTTE AX CHALLENGE 2026", "u"))
     assert not is_it_related(Listing("linkareer", "2", "MAX 사진 공모전", "u"))
+
+
+def test_pending_duplicates_skipped_before_publish(http, today):
+    """규칙 개선 전에 대기열에 들어간 같은 공모전은 발행 직전에 거른다."""
+    from contest_digest.models import Listing
+    from datetime import timedelta
+
+    from contest_digest.pipeline import duplicate_pending, process
+    from contest_digest.state import State
+
+    state = State()
+    end = today + timedelta(days=5)
+    sent = Listing("wevity", "1", "이번 11월 부여 어때 숏폼 공모전", "u/1", apply_end=end)
+    state.mark(sent.key, today, end, 2, title=sent.title, is_it=False)
+    items = [Listing("linkareer", "2", "이번 11월 부여 어때 숏폼 공모", "u/2", apply_end=end),
+             Listing("linkareer", "3", "2026 충남 문화CF 스타상 (청년예술부문) 공모", "u/3", apply_end=end),
+             Listing("wevity", "4", "2026 충남 문화예술후원사업 문화CF 스타상 (청년예술부문) 공모", "u/4", apply_end=end),
+             Listing("wevity", "5", "스마트시티 아이디어", "https://www.wevity.com/?c=find&s=1&gbn=view&ix=900002", apply_end=end)]
+    for it in items:
+        state.mark(it.key, today, end, None, title=it.title, is_it=False, status="pending", listing=it)
+    assert duplicate_pending(state) == {"linkareer:2", "wevity:4"}
+    r = process(Settings(), http, state, today, "non-it", use_llm=False)
+    assert [c.key for c in r.contests] == ["wevity:5"]  # linkareer:3은 fixture가 없어 상세 실패
+    marks = {m.listing.key: m.status for m in r.marks}
+    assert marks["linkareer:2"] == marks["wevity:4"] == "skipped"
