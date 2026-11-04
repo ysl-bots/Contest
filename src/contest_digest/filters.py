@@ -115,6 +115,9 @@ def is_same_contest(a: Fingerprint, b: Fingerprint) -> bool:
             ca, cb = a.core, b.core
     if not ca or not cb:
         return False
+    da, db = set(re.findall(r"\d+", ca)), set(re.findall(r"\d+", cb))
+    if da and db and da != db:  # 핵심 제목의 숫자(부문·회차 번호 등)가 다르면 별개
+        return False
     sim = _dice(ca, cb)
     short, long_ = sorted((ca, cb), key=len)
     if len(short) >= 4 and short in long_:

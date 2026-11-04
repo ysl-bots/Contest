@@ -13,7 +13,7 @@ from datetime import date
 from .classify import Classifier, Verdict, classify_by_keyword
 from .config import NON_IT_CATEGORIES, NOT_COMPETITION_KEYWORDS, Settings
 from .extract import Extractor, metadata_only
-from .filters import select_new
+from .filters import is_same_contest, select_new
 from .http import HttpClient
 from .models import Contest, Listing
 from .render import render, title
@@ -94,6 +94,23 @@ def _detail_says_other_track(contest: Contest, is_it: bool) -> bool:
     return contest.is_it is True and bool(contest.category) and contest.category not in NON_IT_CATEGORIES
 
 
+def duplicate_pending(state: State) -> set[str]:
+    """대기열 안에서 이미 처리한 건이나 다른 대기 건과 같은 공모전인 pending 키.
+
+    수집 시점 dedupe 이후(또는 판정 규칙 개선 전)에 쌓인 중복을 발행 직전에 한 번 더 거른다.
+    전체 state 기준이고 키 순서로 남길 건을 정하므로 IT·Non-IT job이 같은 결론을 낸다.
+    """
+    fps = state.fingerprints()
+    known = [fp for k, fp in fps.items() if state.items[k].get("status") != PENDING]
+    dup = set()
+    for key in sorted(k for k in fps if state.items[k].get("status") == PENDING):
+        if any(is_same_contest(fps[key], k) for k in known):
+            dup.add(key)
+        else:
+            known.append(fps[key])
+    return dup
+
+
 def classify_new(settings: Settings, http: HttpClient, state: State, today: date, names: list[str],
                  use_llm: bool = True, classifier: Classifier | None = None) -> ClassifyResult:
     """신규 건을 수집·분류해 트랙(it 여부)과 함께 pending으로 state에 넣는다."""
@@ -101,7 +118,7 @@ def classify_new(settings: Settings, http: HttpClient, state: State, today: date
     listings, result.failures = collect(http, settings, names, today)
     result.collected = len(listings)
     pending_keys = {it.key for it in state.pending()}
-    new = select_new(listings, state.seen() | pending_keys, today, state.fingerprints())
+    new = select_new(listings, state.seen() | pending_keys, today, list(state.fingerprints().values()))
 
     if use_llm and classifier is None:
         classifier = Classifier(settings)
@@ -122,8 +139,12 @@ def process(settings: Settings, http: HttpClient, state: State, today: date, tra
     is_it = track == "it"
     result = RunResult(track)
     queue = []
+    dups = duplicate_pending(state)
     for it in _by_deadline(state.pending(is_it)):
-        if it.apply_end and it.apply_end < today:
+        if it.key in dups:
+            log.info("[%s] 중복 제외: %s", track, it.title)
+            result.marks.append(Mark(it, is_it, it.apply_end))  # 이미 처리했거나 대기 중인 같은 공모전
+        elif it.apply_end and it.apply_end < today:
             result.marks.append(Mark(it, is_it, it.apply_end))  # 대기 중 마감
         elif any(w in it.title for w in NOT_COMPETITION_KEYWORDS):
             result.excluded.append(it)  # 서포터즈 등 활동형 모집
