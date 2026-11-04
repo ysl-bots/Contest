@@ -48,17 +48,26 @@ class State:
     def was_moved(self, key: str) -> bool:
         return bool(self.items.get(key, {}).get("moved"))
 
-    def seen_titles(self) -> set[str]:
-        from .filters import title_keys
+    def fingerprints(self) -> list:
+        """중복 판정용으로 저장된 모든 건(처리·대기)의 Fingerprint."""
+        from .filters import Fingerprint
 
-        return {k for v in self.items.values() if v.get("title") for k in title_keys(v["title"])}
+        out = []
+        for key, v in self.items.items():
+            if not v.get("title"):
+                continue
+            end = date.fromisoformat(v["apply_end"]) if v.get("apply_end") else None
+            host = v.get("host") or (v.get("listing") or {}).get("host")
+            out.append(Fingerprint.of(v["title"], host, end, key.split(":", 1)[0]))
+        return out
 
     def mark(self, key: str, today: date, apply_end: date | None, issue_number: int | None,
              title: str | None = None, is_it: bool | None = None, status: str | None = None,
-             listing: Listing | None = None, moved: bool = False) -> None:
+             listing: Listing | None = None, moved: bool = False, host: str | None = None) -> None:
         prev = self.items.get(key, {})
         item = {
             "title": title,
+            "host": host or prev.get("host") or (listing.host if listing else None),
             "first_seen": prev.get("first_seen") or today.isoformat(),
             "apply_end": apply_end.isoformat() if apply_end else None,
             "it": is_it,

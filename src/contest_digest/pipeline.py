@@ -101,7 +101,7 @@ def classify_new(settings: Settings, http: HttpClient, state: State, today: date
     listings, result.failures = collect(http, settings, names, today)
     result.collected = len(listings)
     pending_keys = {it.key for it in state.pending()}
-    new = select_new(listings, state.seen() | pending_keys, today, state.seen_titles())
+    new = select_new(listings, state.seen() | pending_keys, today, state.fingerprints())
 
     if use_llm and classifier is None:
         classifier = Classifier(settings)
@@ -182,6 +182,6 @@ def run(settings: Settings, http: HttpClient, state: State, today: date, names: 
 def save_marks(state: State, result: RunResult, today: date, issue: int | None) -> None:
     for m in result.marks:
         sent = m.status == "sent"
-        state.mark(m.listing.key, today, m.apply_end, issue if sent else None, title=m.listing.title,
+        state.mark(m.listing.key, today, m.apply_end, issue if sent else None, title=m.listing.title, host=m.listing.host,
                    is_it=m.is_it, status=m.status if not sent or issue else PENDING, listing=m.listing,
                    moved=m.moved)
