@@ -8,7 +8,7 @@
 
 ## 동작 방식
 ```
-[classify job]  collect(위비티·링커리어 전체 분야) → dedupe(마감·처리 이력·소스 간 같은 제목)
+[classify job]  collect(위비티·링커리어 전체 분야) → dedupe(마감·처리 이력·소스 간 같은 공모전: 제목 유사도+주최+마감)
                 → classify(Jev 결정 모델로 IT 판정, 애매한 건만 LLM 재판정)
                 → 신규 건을 트랙(IT/Non-IT)별 대기열(pending)에 저장 → state.json 커밋
 
