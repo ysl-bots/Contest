@@ -1976,9 +1976,10 @@
       "host": "과학기술정보통신부",
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-20",
-      "it": true,
+      "it": false,
       "status": "pending",
       "issue": null,
+      "moved": true,
       "listing": {
         "source": "linkareer",
         "id": "361293",
@@ -1995,17 +1996,8 @@
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-11",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "361322",
-        "title": "2026 스마트시티(지식서비스산업) 아이디어 경진대회",
-        "url": "https://linkareer.com/activity/361322",
-        "host": "교육부",
-        "apply_end": "2026-11-11",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 4
     },
     "linkareer:361327": {
       "title": "제2회 Nitto Open Innovation Challenge",
@@ -2049,17 +2041,8 @@
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-15",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "361452",
-        "title": "조코딩 AX인재전쟁 온라인 x 삼일PwC: 스펙·학력 없이 AI 역량으로 채용까지",
-        "url": "https://linkareer.com/activity/361452",
-        "host": "조코딩AX파트너스",
-        "apply_end": "2026-11-15",
-        "categories": []
-      }
+      "status": "skipped",
+      "issue": null
     },
     "linkareer:361485": {
       "title": "2026 체리블라썸 뮤직콘서트 인 윈터 BAND IN BLOOM 전국 밴드 경연대회",
@@ -2337,17 +2320,8 @@
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-20",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "361801",
-        "title": "[산림청] 산림공공데이터 어디까지 써봤니 활용사례 공모",
-        "url": "https://linkareer.com/activity/361801",
-        "host": "산림청",
-        "apply_end": "2026-11-20",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 4
     },
     "linkareer:361808": {
       "title": "[상금 30만 원] 2027 PnR TOUR 메달 아이디어·디자인 공모전",
@@ -2643,17 +2617,8 @@
       "first_seen": "2026-11-09",
       "apply_end": "2026-12-01",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "linkareer",
-        "id": "362183",
-        "title": "[한국체육산업개발(주)] 공공데이터 활용 경진대회",
-        "url": "https://linkareer.com/activity/362183",
-        "host": "한국체육산업개발(주)",
-        "apply_end": "2026-12-01",
-        "categories": []
-      }
+      "status": "sent",
+      "issue": 4
     },
     "linkareer:362184": {
       "title": "제1회 동물사랑 디카시 공모전",
@@ -2750,9 +2715,10 @@
       "host": "한국교육학술정보원",
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-27",
-      "it": true,
+      "it": false,
       "status": "pending",
       "issue": null,
+      "moved": true,
       "listing": {
         "source": "linkareer",
         "id": "362189",
@@ -2966,9 +2932,10 @@
       "host": "차세대통신 혁신융합대학사업단",
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-18",
-      "it": true,
+      "it": false,
       "status": "pending",
       "issue": null,
+      "moved": true,
       "listing": {
         "source": "linkareer",
         "id": "362560",
@@ -4652,19 +4619,8 @@
       "first_seen": "2026-11-09",
       "apply_end": "2026-11-30",
       "it": true,
-      "status": "pending",
-      "issue": null,
-      "listing": {
-        "source": "wevity",
-        "id": "112236",
-        "title": "2026 대구 로컬AI그라운드 - 지역문제 해결형 AI활용 경진대회",
-        "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112236",
-        "host": "대구광역시,대구창조경제혁신센터",
-        "apply_end": "2026-11-30",
-        "categories": [
-          "웹/모바일/IT"
-        ]
-      }
+      "status": "sent",
+      "issue": 4
     },
     "wevity:112241": {
       "title": "난치병 아동의 소원천사 42기 위시엔젤 모집",
